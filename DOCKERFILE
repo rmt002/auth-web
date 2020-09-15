@@ -1,0 +1,4 @@
+FROM  openjdk:latest
+ADD target/auth-web.jar dsb-auth-web.jar
+EXPOSE 8090
+ENTRYPOINT ["java","-jar","dsb-auth-web.jar"]
