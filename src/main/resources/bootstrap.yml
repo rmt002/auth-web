@@ -1,0 +1,10 @@
+#Unsure what this file will be used for, I think it is for storing the consul config separately
+#spring:
+#   application:
+#     name: auth-web
+#   cloud:
+#     consul:
+#       host: localhost
+#       port: 8500
+#       config:
+#         enabled: true

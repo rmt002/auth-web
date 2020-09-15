@@ -44,3 +44,13 @@ Simple Spring Boot App that uses JWT to implement Authorization.
 
                 docker ps
                 docker stop <containerid-to-be-stopped>
+
+---
+## Consul Discovery
+
+1. Startup the consul server before starting the app
+
+                consul.exe agent -dev
+
+2. Start the app / docker container to the correct port
+
